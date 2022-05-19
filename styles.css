@@ -1,0 +1,33 @@
+#success {
+  display: none;
+}
+#error {
+  display: none;
+}
+.row {
+  padding: 1%;
+}
+.form {
+  border: 1px solid black;
+  border-radius: 2%;
+  padding: 1%;
+  text-align: center;
+}
+.btn {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    margin: 2rem;
+  }
+}
+.table {
+  border: 1px solid black;
+}
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5%;
+}
